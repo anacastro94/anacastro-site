@@ -1337,16 +1337,6 @@ p {
   border: 1px solid #8c1515;
 }
 
-.flt {
-  color: #8c151;
-  font-family: "Optima";
-}
-
-.flt:hover {
-  color: #8c1515;
-  text-decoration: underline;
-  font-family: "Optima";
-}
 
 
 /*---custom----responsive-------*/
@@ -1357,7 +1347,11 @@ p {
 
 @media (max-width: 400px) {
   p {
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .pwcx {
+    font-size: 14px;
   }
 
 }
