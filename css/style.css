@@ -326,45 +326,29 @@ body {
 }
 
 h1 {
-  font-size: 64px;
-  line-height: 1.3125em;
-  letter-spacing: 4px;
+  font-size: 40px;
+  line-height: 1.2em;
+  letter-spacing: 2px;
   font-weight: 700;
+  font-family: 'Optima'
 }
 
 h2 {
   font-size: 40px;
   line-height: 1.2em;
   letter-spacing: 2px;
-  font-weight: 700;
+  font-weight: 300;
+  font-family: 'Optima'
 }
 
 h3 {
-  font-size: 28px;
-  line-height: 1.285714285714286em;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-weight: 700;
+  color: black;
+  text-decoration: underline;
+  font-size: 24px;
+  font-family: 'Optima';
 }
 
-h4 {
-  font-size: 18px;
-  line-height: 1.538461538461538em;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-h5 {
-  font-size: 16px;
-  line-height: 1.444444444444444em;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-
-h6 {
-  font-size: 14px;
-  line-height: 1.571428571428571em;
-  font-weight: 400;
-}
 
 h1,
 h1 a,
@@ -374,43 +358,18 @@ h3 a {
 }
 
 h2,
-h2 a,
-h5,
-h5 a {
+h2 a {
   color: #494949;
 }
 
-h4,
-h4 a {
-  color: #8b8b8b;
-}
-
-h6,
-h6 a {
-  color: #e6ae48;
-}
 
 h1 a,
 h2 a,
 h3 a,
 h4 a,
-h5 a,
-h6 a {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  font-style: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  text-transform: inherit;
-}
-
 h1 a:hover,
 h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover {
+h3 a:hover {
   color: #8a8f6a;
 }
 
@@ -748,8 +707,6 @@ body.overflow-hidden-header-three {
 
 /* active state, i.e. menu open */
 
-.nav-button.active {}
-
 .nav-button.active span {
   background: none;
 }
@@ -774,9 +731,7 @@ body.overflow-hidden-header-three {
   transition-delay: 0, 0.3s;
 }
 
-/*** Header style four ****/
 
-.header-four {}
 
 /*** Brand logo ***/
 
@@ -1277,24 +1232,17 @@ span.description {
 
 /* End: Recommended Isotope styles */
 p {
-  font-weight: 400;
-  color: black;
-}
-
-.pwc {
-  font-weight: 400;
-  color: black;
   font-size: 18px;
-  margin-bottom: 70px;
+  color: black;
+  font-family: 'Optima';
+  line-height: 1.8;
 }
 
 .pwcx {
-  font-weight: 400;
-  color: black;
   font-size: 18px;
-  line-height: 1;
+  color: black;
   font-family: "Optima";
-  font-style: normal;
+  line-height: 1;
 }
 
 .all-link {
@@ -1326,14 +1274,6 @@ p {
 
 /*------banner---css-- close--*/
 
-/*--news---css---start---*/
-
-.newsp {
-  font-size: 19px;
-  font-family: "Optima";
-}
-
-/*----news--css-----close--*/
 
 /*--------selected1---css---start----*/
 
@@ -1408,99 +1348,11 @@ p {
   font-family: "Optima";
 }
 
-/*--------selected1---css---close----*/
-
-.backt {
-  width: 100%;
-  height: 300px;
-  background-image: url(teach2\\(1\).jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-/*---teaching--css----start---*/
-
-.btn1 {
-  font-size: 18px;
-  text-decoration: underline;
-  font-family: "Optima";
-  text-align: center;
-}
-
-.techi {
-  font-size: 22px;
-  text-decoration: underline;
-  text-align: center;
-}
-
-.shadow h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  padding: 100px 0;
-  font-size: 18px;
-}
-
-/*---teaching--css----close---*/
 
 /*---custom----responsive-------*/
 
 @media (max-width: 450px) {
-  .pubss h1 {
-    font-size: 16px;
-  }
-
-  .techi h1 {
-    font-size: 16px;
-  }
-
-  .Talks h1 {
-    font-size: 16px;
-  }
-
-  .backt {
-    width: 100%;
-    height: 100px;
-    background-image: url(teach2\\(1\).jpg);
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .shadow h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    font-size: 10px;
-    padding: 30px 0;
-  }
-
-  .back {
-    width: 100%;
-    height: 100px;
-    background-image: url(background-book-bookcase-books.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .backs {
-    width: 100%;
-    height: 100px;
-    background-image: url(istockphoto-1219980553-170667a.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .backls {
-    width: 100%;
-    height: 100px;
-    background-image: url(talk2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-  }
-
-  .backls h1 {
-    padding: 100px 0;
-  }
+  
 }
 
 @media (max-width: 400px) {
@@ -1508,50 +1360,17 @@ p {
     font-size: 12px;
   }
 
-  h1 {
-    font-size: 16px;
-  }
-
-  h3 {
-    font-size: 10px;
-  }
-
-  h2 {
-    font-size: 15px;
-  }
 }
 
 /*---custom----responsive-------*/
 
 /*----talks---start---*/
+.table-date {
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 96px;
+  white-space: nowrap;
 
-.workex p {
-  font-weight: 400;
-  color: black;
-  max-width: 700px;
-  line-height: 30px;
-  margin: 35px 0;
-}
-
-.backls {
-  width: 100%;
-  height: 300px;
-  background-image: url(talk2.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.Talks h1 {
-  text-align: center;
-}
-
-.Talks {
-  margin-top: 40px;
-}
-
-.Talks h3 {
-  line-height: 50px;
-  font-size: 22px;
 }
 
 /*----talks---close---*/
