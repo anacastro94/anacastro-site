@@ -1341,10 +1341,6 @@ p {
 
 /*---custom----responsive-------*/
 
-@media (max-width: 450px) {
-  
-}
-
 @media (max-width: 400px) {
   p {
     font-size: 14px;
